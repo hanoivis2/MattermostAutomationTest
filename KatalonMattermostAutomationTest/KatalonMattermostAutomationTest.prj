@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>MatterMost_AutomationTest</name>
+   <name>KatalonMattermostAutomationTest</name>
    <tag></tag>
-   <UUID>b9bc2a99-e4c2-486d-8600-64bc155777b3</UUID>
+   <UUID>53df4702-982b-47a3-89ae-47af8e6dceab</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
    <sourceContent>
