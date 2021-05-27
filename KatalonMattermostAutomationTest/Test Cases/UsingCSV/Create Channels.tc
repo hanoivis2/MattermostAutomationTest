@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Channels</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0e711e75-46ed-43cc-852b-c0eeae7bc004</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2369d8a5-757a-41e6-994c-eb8a1d527b99</id>
+      <masked>false</masked>
+      <name>type</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6dfe3d09-08e7-4569-9ee5-bd47c7e13650</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8461b317-717d-439e-a7dd-44dd87540e13</id>
+      <masked>false</masked>
+      <name>purpose</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3b60c6f4-92c0-4161-9a42-8ac69caafb7d</id>
+      <masked>false</masked>
+      <name>header</name>
+   </variable>
+</TestCaseEntity>

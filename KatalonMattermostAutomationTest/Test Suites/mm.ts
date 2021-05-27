@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>mm</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>ee01cfc8-7736-405a-aa46-d2315a7a7406</testSuiteGuid>
+   <testCaseLink>
+      <guid>c3fcbb57-c825-4c23-af5e-4345752ef2d8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/UsingCSV/Create Channels</testCaseId>
+      <testDataLink>
+         <combinationType>MANY</combinationType>
+         <id>903f3c40-302a-4b36-a120-890964895420</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CSV_Data/CreateChannelsData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>903f3c40-302a-4b36-a120-890964895420</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Type</value>
+         <variableId>2369d8a5-757a-41e6-994c-eb8a1d527b99</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>903f3c40-302a-4b36-a120-890964895420</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Name</value>
+         <variableId>6dfe3d09-08e7-4569-9ee5-bd47c7e13650</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>903f3c40-302a-4b36-a120-890964895420</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Purpose</value>
+         <variableId>8461b317-717d-439e-a7dd-44dd87540e13</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>903f3c40-302a-4b36-a120-890964895420</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Header</value>
+         <variableId>3b60c6f4-92c0-4161-9a42-8ac69caafb7d</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
