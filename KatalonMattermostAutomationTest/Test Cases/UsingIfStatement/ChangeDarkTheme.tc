@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Change Dark Theme If Username.length greater than 5</description>
+   <description>Change Dark Theme If Username.length greater than 12</description>
    <name>ChangeDarkTheme</name>
    <tag></tag>
    <comment></comment>

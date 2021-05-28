@@ -17,3 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('UsingCSV/LoginUsers'), [('username') : username, ('password') : password], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/span'))
+
+WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/button_Account Settings'))
+
+WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/button_Display'))
+
+WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/span_Edit'))
+
+if (username.length() > 12) {
+    WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/input_Clock Display_clockFormat'))
+}
+
+WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/button_Save'))
+
+WebUI.closeBrowser()
+

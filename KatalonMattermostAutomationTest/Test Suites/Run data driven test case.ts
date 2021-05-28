@@ -218,7 +218,7 @@
    <testCaseLink>
       <guid>2c39f0d9-7583-48c7-baf3-144a86785121</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/UsingIfStatement/ChangeDarkTheme</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -245,7 +245,28 @@
    <testCaseLink>
       <guid>9633f733-6179-4241-bcf4-0f109c71c1cc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/UsingIfStatement/FormatTime</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>1b0be51e-3cf3-4dc6-82b3-4091ad85420b</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CSV_Data/LoginUsers</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>1b0be51e-3cf3-4dc6-82b3-4091ad85420b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>84748fba-a06a-427e-9a49-96e4bb6075f4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1b0be51e-3cf3-4dc6-82b3-4091ad85420b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>f188f92b-d6a0-4fc8-beb5-d54ce78d071c</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
