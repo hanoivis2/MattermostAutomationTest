@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ViewChannelInfo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f02cdc39-6a44-4662-bc9e-b968ec05311a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>74e36162-2250-4688-814a-6231a01c7e85</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c7535143-e2df-4a15-809b-dccc30bc6536</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

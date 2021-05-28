@@ -95,7 +95,7 @@
    <testCaseLink>
       <guid>2a31aad1-e19a-4ea8-973e-a98f9715c773</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/UsingInternalData/InvitePeople</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -117,6 +117,33 @@
          <type>DATA_COLUMN</type>
          <value>password</value>
          <variableId>66e44592-d8a4-46a3-a834-4e243f094572</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7b4fbbfd-45e7-4241-9ed5-354589dac901</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/UsingInternalData/ViewChannelInfo</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>a635982c-5c56-4c34-b2a7-a35b11acf422</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DB_Data/UsersData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>a635982c-5c56-4c34-b2a7-a35b11acf422</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>74e36162-2250-4688-814a-6231a01c7e85</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a635982c-5c56-4c34-b2a7-a35b11acf422</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>c7535143-e2df-4a15-809b-dccc30bc6536</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
