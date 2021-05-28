@@ -149,7 +149,7 @@
    <testCaseLink>
       <guid>6df26bfa-e8a2-4980-914e-c1702f5e213d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/UsingInternalData/ChangeChannelDescription</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -165,6 +165,27 @@
          <type>DATA_COLUMN</type>
          <value>desciption</value>
          <variableId>33e39f62-6c93-491a-9ea8-eb9d6bb26c5f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1c28014b-af99-4c3c-8b5c-aded624d29fc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/UsingCase/ChangeLanguage</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>7265becf-1de0-4df1-81e3-90c67767e677</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CSV_Data/LanguageData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>7265becf-1de0-4df1-81e3-90c67767e677</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>﻿LanguageData</value>
+         <variableId>3ea9c960-65f5-475f-93a4-f81b82acad8a</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

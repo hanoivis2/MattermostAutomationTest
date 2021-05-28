@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ChangeLanguage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>75a6a91f-6142-4332-bc68-942f94591737</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3ea9c960-65f5-475f-93a4-f81b82acad8a</id>
+      <masked>false</masked>
+      <name>language</name>
+   </variable>
+</TestCaseEntity>
