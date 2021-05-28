@@ -6,12 +6,12 @@
    <elementGuidId>1defd2e7-c930-4fcc-adab-58574129174b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#loginPassword</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='loginPassword']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#loginPassword</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control a11y--active a11y--focused</value>
+      <value>form-control</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

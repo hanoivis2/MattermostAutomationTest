@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>3e2594cc-766c-4102-9022-3763b05b1949</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/UsingInternalData/Edit name</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -36,6 +36,33 @@
          <type>DATA_COLUMN</type>
          <value>LastName</value>
          <variableId>bd99c0ff-8017-4736-8bd6-b9f4c1fbc781</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>eb6f52d0-071b-4d4a-ba8e-e545782fc88f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/UsingCSV/LoginUsers</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ae8adc2c-c401-4e98-b972-ec65b5fe2e01</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CSV_Data/LoginUsers</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>ae8adc2c-c401-4e98-b972-ec65b5fe2e01</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>fc14aa54-9026-43d4-9ee3-09643f485579</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ae8adc2c-c401-4e98-b972-ec65b5fe2e01</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>335bb6d4-62b7-4c16-87bc-2bc2f75ab9ab</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

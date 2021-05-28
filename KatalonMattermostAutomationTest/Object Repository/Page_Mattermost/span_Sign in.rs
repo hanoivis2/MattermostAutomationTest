@@ -6,12 +6,12 @@
    <elementGuidId>f6cecf9f-7818-4880-a272-dbe5e60c9235</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#loginButton > span</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button[@id='loginButton']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#loginButton > span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -49,14 +49,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter a valid email or username and/or password.'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All team communication in one place, searchable and accessible anywhere'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='All team communication in one place, searchable and accessible anywhere'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mattermost'])[2]/following::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +91,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mattermost'])[2]/following::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter a valid email or username and/or password.'])[1]/following::span[1]</value>
    </webElementXpaths>
 </WebElementEntity>
