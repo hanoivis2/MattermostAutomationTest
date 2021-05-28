@@ -170,7 +170,7 @@
    <testCaseLink>
       <guid>1c28014b-af99-4c3c-8b5c-aded624d29fc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/UsingCase/ChangeLanguage</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -186,6 +186,33 @@
          <type>DATA_COLUMN</type>
          <value>﻿LanguageData</value>
          <variableId>3ea9c960-65f5-475f-93a4-f81b82acad8a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>64e83e2b-ce2b-4b7b-886c-f72cddc84bb1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CallAnotherTestCase/ViewTeamMember</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>71b31d88-2355-493d-bc72-342c8532dac6</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CSV_Data/LoginUsers</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>71b31d88-2355-493d-bc72-342c8532dac6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>43d8fc79-5854-4ce4-a56e-f319b5de3209</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>71b31d88-2355-493d-bc72-342c8532dac6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>596ea142-85bc-41b0-9bf5-2d2a04f9487e</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
