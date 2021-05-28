@@ -17,3 +17,26 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://cdnccnpm1.herokuapp.com/')
+
+WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'), 'linhknife796')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
+    'HGnKy8xZufLE9vEr3x7Zxw==')
+
+WebUI.click(findTestObject('Object Repository/Page_Mattermost/button_Sign in'))
+
+WebUI.click(findTestObject('Object Repository/Page_Town Square - Buffalo Mattermost/svg'))
+
+WebUI.click(findTestObject('Object Repository/Page_Town Square - Buffalo Mattermost/button_Account Settings'))
+
+WebUI.click(findTestObject('Object Repository/Page_Town Square - Buffalo Mattermost/span_Click Edit to add a nickname'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - Buffalo Mattermost/input_Nickname_nickname'), nickname)
+
+WebUI.click(findTestObject('Object Repository/Page_Town Square - Buffalo Mattermost/button_Save'))
+
+WebUI.closeBrowser()
+

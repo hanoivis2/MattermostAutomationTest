@@ -1,26 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>CreateTeamsData</name>
+   <name>Nick name data</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>478ec57a-83de-4ad6-856e-267b7d4b1927</dataFileGUID>
+   <dataFileGUID>fb87076e-d018-44d4-84dd-cc32310ff081</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>Cobra cobra</data>
-   <data>Buffalo buffalo</data>
-   <data>Tiger tiger</data>
-   <data>Chiken chicken</data>
+   <data>Noobs</data>
+   <data>Pro+player</data>
+   <data>Stupid</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
-      <name>Name</name>
-      <size>4</size>
-   </internalDataColumns>
-   <internalDataColumns>
-      <columnIndex>1</columnIndex>
-      <name>URL</name>
-      <size>4</size>
+      <name>Nickname</name>
+      <size>3</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>
