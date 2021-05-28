@@ -122,7 +122,7 @@
    <testCaseLink>
       <guid>7b4fbbfd-45e7-4241-9ed5-354589dac901</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/UsingInternalData/ViewChannelInfo</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -144,6 +144,27 @@
          <type>DATA_COLUMN</type>
          <value>password</value>
          <variableId>c7535143-e2df-4a15-809b-dccc30bc6536</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6df26bfa-e8a2-4980-914e-c1702f5e213d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/UsingInternalData/ChangeChannelDescription</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d4f234f0-e2f9-4d98-bd5a-4e35edb18c4e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DB_Data/DesciptionChannelData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>d4f234f0-e2f9-4d98-bd5a-4e35edb18c4e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>desciption</value>
+         <variableId>33e39f62-6c93-491a-9ea8-eb9d6bb26c5f</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

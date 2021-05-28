@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ChangeChannelDescription</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3b2925dd-1cb2-4de4-9470-2c7d782646e7</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>33e39f62-6c93-491a-9ea8-eb9d6bb26c5f</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+</TestCaseEntity>
