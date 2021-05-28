@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Run all test cases</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>9efa7aca-70a6-4a64-842b-c9d621fde009</testSuiteGuid>
+   <testCaseLink>
+      <guid>34557b53-9743-4c28-87ad-c10b263d604c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login failed with invalid account</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>38024337-bea6-4336-91cc-5b759c15b001</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CSV/Invalid account</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>38024337-bea6-4336-91cc-5b759c15b001</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>﻿username</value>
+         <variableId>271f24d1-e3d1-475d-b8db-41004de270bd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>38024337-bea6-4336-91cc-5b759c15b001</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>de08d298-595c-476b-8e98-e95f92edd42b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>afa2e651-6db6-4e72-a984-62dcc3d7c845</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login successfully</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>006fb348-fc25-4f64-845b-2c9fbd6f441b</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Internal/Login successfully</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>006fb348-fc25-4f64-845b-2c9fbd6f441b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>5dd97317-68d9-480f-a3f3-32e7235efac9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>006fb348-fc25-4f64-845b-2c9fbd6f441b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>9d03f08b-afd4-44e2-80ae-824e7dc91b61</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9f783521-9093-446d-82c1-8798a98fb985</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Logout</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>76df2f1d-3d00-4c92-bf35-2415ddd68da9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create public channel successfully</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>599d4c81-b545-4e7d-bd3f-126cfb7a63b1</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Internal/Public channel</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>599d4c81-b545-4e7d-bd3f-126cfb7a63b1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>channelName</value>
+         <variableId>7c154626-716a-450d-827f-88a91b7ffde0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>599d4c81-b545-4e7d-bd3f-126cfb7a63b1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>purpose</value>
+         <variableId>93e4e69b-4cec-49fd-99d0-3519a4273d54</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>599d4c81-b545-4e7d-bd3f-126cfb7a63b1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>header</value>
+         <variableId>247e7af2-52e1-48e8-a149-c83f040f2eaa</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>16d658b4-3989-482c-b905-0bb5a7fdae55</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Change teammate name display</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d0bb7aa6-4089-490a-b656-ec8401b8f161</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Internal/Teammate display type</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>d0bb7aa6-4089-490a-b656-ec8401b8f161</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>teammateDisplayType</value>
+         <variableId>64eee67c-18fb-4c25-a0b2-14c2ab97267a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>efc93272-5a6a-4cca-9572-ea10969d3bd5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Change clock display</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>503f552c-af21-4cbd-ab0b-de68ed02bd8a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Internal/Time format</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>503f552c-af21-4cbd-ab0b-de68ed02bd8a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>timeFormat</value>
+         <variableId>90f1b98f-15ad-477a-8a13-00146715d1f4</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
