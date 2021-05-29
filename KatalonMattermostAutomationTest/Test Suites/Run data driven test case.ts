@@ -272,7 +272,13 @@
    <testCaseLink>
       <guid>125a404e-ac9a-4bcb-972f-8d62d92aa68f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/UsingCase/ChangeThemeColor</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9b9bbffa-2677-4aa5-b03b-1b3a67d21c15</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/UsingLoop/Change team name</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
