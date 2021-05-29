@@ -17,16 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://testlan2796.herokuapp.com/login')
-
-WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'), 'nguoidung1796')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
-    'nPfpYrEr/l65N6FKFb1a2w==')
-
-WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Sign in'))
+WebUI.callTestCase(findTestCase('Login successfully'), [('username') : username, ('password') : password], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_Mattermost/div_MattermostAll team communication in one_93cd78'))
 
@@ -45,7 +36,7 @@ WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Sign in'))
 
 WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Create a team'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_Team Name_teamNameInput'), 'team tui')
+WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_Team Name_teamNameInput'), teamName)
 
 WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Next'))
 

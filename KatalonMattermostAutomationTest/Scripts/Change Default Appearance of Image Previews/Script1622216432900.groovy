@@ -17,48 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Login successfully'), [('username') : username, ('password') : password], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://cdnccnpm1.herokuapp.com/login')
+WebUI.click(findTestObject('Object Repository/Change appearance/Page_Town Square - abc Mattermost/path'))
 
-WebUI.setText(findTestObject('Object Repository/AccountSetting Display/Page_Mattermost/input_All team communication in one place, _dcc84b'), 
-    'linhknife796')
+WebUI.click(findTestObject('Object Repository/Change appearance/Page_Town Square - abc Mattermost/span_Account Settings'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/AccountSetting Display/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
-    'HGnKy8xZufLE9vEr3x7Zxw==')
+WebUI.click(findTestObject('Object Repository/Change appearance/Page_Town Square - abc Mattermost/button_Display'))
 
-WebUI.sendKeys(findTestObject('Object Repository/AccountSetting Display/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
-    Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Object Repository/Change appearance/Page_Town Square - abc Mattermost/div_Default Appearance of Image PreviewsEdit'))
 
-WebUI.click(findTestObject('Object Repository/AccountSetting Display/Page_Town Square - abc Mattermost/span'))
+if (appearanceOfImagePreview == 'Expanded') {
+    WebUI.click(findTestObject('Object Repository/AccountSetting Display/Page_Town Square - abc Mattermost/label_Expanded'))
+} else {
+    WebUI.click(findTestObject('Object Repository/AccountSetting Display/Page_Town Square - abc Mattermost/label_Collapsed'))
+}
 
-WebUI.click(findTestObject('Object Repository/AccountSetting Display/Page_Town Square - abc Mattermost/button_Account Settings'))
+WebUI.click(findTestObject('Object Repository/Change appearance/Page_Town Square - abc Mattermost/span_Save'))
 
-WebUI.click(findTestObject('Object Repository/AccountSetting Display/Page_Town Square - abc Mattermost/button_Display'))
-
-WebUI.click(findTestObject('Object Repository/AccountSetting Display/Page_Town Square - abc Mattermost/span_Edit'))
-
-WebUI.click(findTestObject('Object Repository/AccountSetting Display/Page_Town Square - abc Mattermost/label_Expanded'))
-
-WebUI.click(findTestObject('Object Repository/AccountSetting Display/Page_Town Square - abc Mattermost/label_Collapsed'))
-
-WebUI.click(findTestObject('Object Repository/AccountSetting Display/Page_Town Square - abc Mattermost/button_Save'))
-
-WebUI.click(findTestObject('Object Repository/AccountSetting Display/Page_Town Square - abc Mattermost/span_Edit'))
-
-WebUI.click(findTestObject('Object Repository/AccountSetting Display/Page_Town Square - abc Mattermost/label_Standard Easy to scan and read'))
-
-WebUI.click(findTestObject('Object Repository/AccountSetting Display/Page_Town Square - abc Mattermost/label_Compact Fit as many messages on the s_8d6635'))
-
-WebUI.click(findTestObject('Object Repository/AccountSetting Display/Page_Town Square - abc Mattermost/span_Save'))
-
-WebUI.click(findTestObject('Object Repository/AccountSetting Display/Page_Town Square - abc Mattermost/span_Edit'))
-
-WebUI.click(findTestObject('Object Repository/AccountSetting Display/Page_Town Square - abc Mattermost/input_Channel Display_channel_display_modeFormat'))
-
-WebUI.click(findTestObject('Object Repository/AccountSetting Display/Page_Town Square - abc Mattermost/input_Full width_channel_display_modeFormat'))
-
-WebUI.click(findTestObject('Object Repository/AccountSetting Display/Page_Town Square - abc Mattermost/span_Save'))
-
-WebUI.click(findTestObject('Object Repository/AccountSetting Display/Page_Town Square - abc Mattermost/span_'))
+WebUI.click(findTestObject('Object Repository/Change appearance/Page_Town Square - abc Mattermost/span_'))
 

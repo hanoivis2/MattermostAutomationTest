@@ -12,4 +12,18 @@
       <masked>false</masked>
       <name>teammateDisplayType</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>47c0e1c0-b87d-4234-b72a-5ff0ff7f0ab8</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7be5504b-cd9d-4ba7-94a3-c15ccf65ece8</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
 </TestCaseEntity>

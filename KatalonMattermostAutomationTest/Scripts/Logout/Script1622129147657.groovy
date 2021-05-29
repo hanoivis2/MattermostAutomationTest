@@ -17,9 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login successfully'), [('username') : '', ('password') : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login successfully'), [('username') : username, ('password') : password], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - mastermost7961 Mattermost/path'))
+if (findTestObject('Object Repository/Logout/Page_Town Square - abc Mattermost/span') != null) {
+    WebUI.click(findTestObject('Object Repository/Logout/Page_Town Square - abc Mattermost/span'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - mastermost7961 Mattermost/button_Log Out'))
+    WebUI.click(findTestObject('Object Repository/Logout/Page_Town Square - abc Mattermost/span_Log Out'))
+} else {
+    WebUI.click(findTestObject('Object Repository/Page_Town Square - mastermost7961 Mattermost/path'))
+
+    WebUI.click(findTestObject('Object Repository/Page_Town Square - mastermost7961 Mattermost/button_Log Out'))
+}
 

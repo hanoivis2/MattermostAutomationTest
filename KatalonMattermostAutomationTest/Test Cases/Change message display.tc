@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Change message display</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ba173ab5-e51c-4b3d-8bad-5dae1310ef6b</testCaseGuid>
+   <variable>
+      <defaultValue>'Standard'</defaultValue>
+      <description></description>
+      <id>bcae9de4-c255-47a1-a112-9c8fa25cba3e</id>
+      <masked>false</masked>
+      <name>messageDisplay</name>
+   </variable>
+   <variable>
+      <defaultValue>'linhknife796'</defaultValue>
+      <description></description>
+      <id>6122910a-e9a9-459b-8a3e-f3943214f7b1</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'linhknife796'</defaultValue>
+      <description></description>
+      <id>514995d3-90a0-49d9-8028-21ba56c57905</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

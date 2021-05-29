@@ -26,4 +26,18 @@
       <masked>false</masked>
       <name>header</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9e771553-351a-459b-a5f9-92cd5c1c08a3</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d5ae26d8-de75-4fa8-9ca5-e8c751004a6a</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
 </TestCaseEntity>

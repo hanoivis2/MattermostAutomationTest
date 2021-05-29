@@ -5,4 +5,25 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>aa8fd18e-166b-4e3f-90c5-2a91047b0de7</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6d4dd636-9140-40c5-8ecd-85035807bd26</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ea8f7c5d-a77b-4f5a-86a3-7a51941ca27b</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3d1f8f3a-021f-443a-bf4a-93cba479b0fc</id>
+      <masked>false</masked>
+      <name>teamName</name>
+   </variable>
 </TestCaseEntity>

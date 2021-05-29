@@ -8,7 +8,7 @@
    <dataFileGUID>de786016-1991-46b3-86f1-5be4090ef906</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>channel+cua+tui khong+co+purpose khong+co+header</data>
+   <data>channel+cua+tui khong+co+purpose khong+co+header linhknife796 linhknife796</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>channelName</name>
@@ -22,6 +22,16 @@
    <internalDataColumns>
       <columnIndex>2</columnIndex>
       <name>header</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>username</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>4</columnIndex>
+      <name>password</name>
       <size>1</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
