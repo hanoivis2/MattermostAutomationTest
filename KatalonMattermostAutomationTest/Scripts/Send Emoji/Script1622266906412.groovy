@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login successfully'), [('username') : 'linhknife796', ('password') : 'linhknife796'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login successfully'), [('username') : 'user-1', ('password') : 'SampleUs@r-1'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Write comment/Page_Town Square - abc Mattermost/textarea_Write to Town Square_post_textbox'), 
     ':smiley:')

@@ -29,14 +29,14 @@ public static String randomString(String chars, int length) {
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://cdnccnpm1.herokuapp.com/')
+WebUI.navigateToUrl('http://localhost:8065/')
 
 if (WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Mattermost/span_Sign in'), 1)) {
 	
-	WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'), 'linhknife796')
+	WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'), 'user-1')
 	
 	WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'),
-		'HGnKy8xZufLE9vEr3x7Zxw==')
+		'MZgS3bkacIma+dCTaK/maA==')
 	
 	WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Sign in'))
 }
