@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Change channel display</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cfdd007e-6a95-4b68-ab6d-9f8db2f8e971</testCaseGuid>
+   <variable>
+      <defaultValue>'Full'</defaultValue>
+      <description></description>
+      <id>57073c76-07f0-4fbf-aaee-6ff83eba974a</id>
+      <masked>false</masked>
+      <name>channelDisplay</name>
+   </variable>
+   <variable>
+      <defaultValue>'linhknife796'</defaultValue>
+      <description></description>
+      <id>210b7f60-da04-413b-a8b7-2d31a2d85ea9</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'linhknife796'</defaultValue>
+      <description></description>
+      <id>2380d8c0-df7e-47e0-a3f9-1eb4a4229990</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
