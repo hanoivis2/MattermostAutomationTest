@@ -33,11 +33,10 @@ WebUI.click(findTestObject('Object Repository/ChangeTeamName/Page_Town Square - 
 WebUI.click(findTestObject('Object Repository/ChangeTeamName/Page_Town Square - Chiken Mattermost/span_Team Settings'))
 
 for (int i = 0; i < 4; i++) {
-    WebUI.click(findTestObject('Object Repository/Page_Town Square - Cobra Mattermost/span_Edit'))
+    WebUI.click(findTestObject('ChangeTeamName/Page_Town Square - Chiken Mattermost/span_Edit'))
 
-    WebUI.setText(findTestObject('Object Repository/Page_Town Square - abc Mattermost/input_Team Name_teamName'), randomString(
-            chars, 10))
+    WebUI.setText(findTestObject('ChangeTeamName/Page_Town Square - Chiken Mattermost/input_Team Name_teamName'), '"asdasd"')
 
-    WebUI.click(findTestObject('Page_Town Square - Chikenfsd Mattermost/span_Save'))
+    WebUI.click(findTestObject('ChangeTeamName/Page_Town Square - Chiken Mattermost/span_Save'))
 }
 

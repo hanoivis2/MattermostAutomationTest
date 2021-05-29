@@ -276,7 +276,7 @@
       <testCaseId>Test Cases/UsingCase/ChangeThemeColor</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>9b9bbffa-2677-4aa5-b03b-1b3a67d21c15</guid>
+      <guid>ca359056-28c1-4b37-a58e-37db13fd0958</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/UsingLoop/Change team name</testCaseId>
