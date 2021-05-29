@@ -16,10 +16,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.*;
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://cdnccnpm1.herokuapp.com/')
+WebUI.navigateToUrl('localhost:8065')
 
 WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'), 'linhknife796')
 
@@ -35,7 +36,8 @@ WebUI.click(findTestObject('Object Repository/ChangeTeamName/Page_Town Square - 
 for (int i = 0; i < 4; i++) {
     WebUI.click(findTestObject('ChangeTeamName/Page_Town Square - Chiken Mattermost/span_Edit'))
 
-    WebUI.setText(findTestObject('ChangeTeamName/Page_Town Square - Chiken Mattermost/input_Team Name_teamName'), '"asdasd"')
+    WebUI.setText(findTestObject('ChangeTeamName/Page_Town Square - Chiken Mattermost/input_Team Name_teamName'), CustomKeywords.'com.Utils.randomString'(
+            20))
 
     WebUI.click(findTestObject('ChangeTeamName/Page_Town Square - Chiken Mattermost/span_Save'))
 }

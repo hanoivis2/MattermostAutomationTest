@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "AE46D25EAC802DC934AB2385CA6B80C9",
+  "keywordClasses": [
+    {
+      "name": "Utils",
+      "keywordMethods": [
+        {
+          "name": "randomString",
+          "parameters": [
+            {
+              "name": "StringSize",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

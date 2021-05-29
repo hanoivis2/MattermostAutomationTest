@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://cdnccnpm1.herokuapp.com/')
+WebUI.navigateToUrl('localhost:8065')
 
 WebUI.setText(findTestObject('Object Repository/ChangeThemeCustom/Page_Mattermost/input_All team communication in one place, _dcc84b'), 
-    'linhknife796')
+    'user-1')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/ChangeThemeCustom/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
-    'HGnKy8xZufLE9vEr3x7Zxw==')
+WebUI.setText(findTestObject('Object Repository/ChangeThemeCustom/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
+    'SampleUs@r-1')
 
 WebUI.click(findTestObject('Object Repository/ChangeThemeCustom/Page_Mattermost/span_Sign in'))
 
