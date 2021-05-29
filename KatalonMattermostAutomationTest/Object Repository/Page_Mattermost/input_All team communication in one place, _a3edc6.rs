@@ -42,7 +42,11 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
+<<<<<<< HEAD
       <value>form-control</value>
+=======
+      <value>form-control a11y--active a11y--focused</value>
+>>>>>>> linh
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -72,6 +76,16 @@
       <type>Main</type>
       <value>id(&quot;loginPassword&quot;)</value>
    </webElementProperties>
+<<<<<<< HEAD
+=======
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>l</value>
+   </webElementProperties>
+>>>>>>> linh
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>

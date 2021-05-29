@@ -3,7 +3,7 @@
    <description></description>
    <name>div_MattermostAll team communication in one_93cd78</name>
    <tag></tag>
-   <elementGuidId>291fd8eb-fa09-4620-b10a-af2329f97555</elementGuidId>
+   <elementGuidId>cd8d1b93-f70e-40fc-a70c-07a45d1b3530</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
