@@ -245,7 +245,7 @@
    <testCaseLink>
       <guid>9633f733-6179-4241-bcf4-0f109c71c1cc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/UsingIfStatement/FormatTime</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -268,5 +268,11 @@
          <value>password</value>
          <variableId>f188f92b-d6a0-4fc8-beb5-d54ce78d071c</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>125a404e-ac9a-4bcb-972f-8d62d92aa68f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/UsingCase/ChangeThemeColor</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
