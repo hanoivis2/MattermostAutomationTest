@@ -620,4 +620,64 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/UsingCase/Leave Team</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>4537c1f5-a534-4374-8fef-796cce9cdc11</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mute channel</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>930ad6fb-802d-443c-9469-d472d413dc8b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Ignore mention for channel</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fcd12759-6b48-4f7a-9f7e-9be5e8656fd5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/send desktop notif</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>28c3bd85-c994-44b7-8dff-38bd6c210fcb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/send mobile notif</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cab57523-9861-4f53-9289-488a44e150da</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/turn off send mobile notif</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9b9c4412-14d0-47ee-a598-92fdfb3b0615</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/View member</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>61d89a57-7db9-4509-8673-3ee535ff309e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/edit channel purpose</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>512f0de1-c29f-41c4-aa6d-060bdba06b94</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CallAnotherTestCase/Add channel to favorite</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>faf56a03-34ef-45af-8e41-8e0df5004a84</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Open help</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e5b4bd1e-bd61-4108-83d1-f7337f2e8108</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Ask community</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

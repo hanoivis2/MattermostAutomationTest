@@ -17,22 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login successfully'), [('username') : username, ('password') : password], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('create channel_3/Page_Town Square - ten team 3 Mattermost/i_K_icon-plus'))
+WebUI.navigateToUrl('http://localhost:8065/login')
 
-WebUI.click(findTestObject('Object Repository/create channel_3/Page_Town Square - ten team 3 Mattermost/button_Create New Channel'))
+WebUI.setText(findTestObject('Object Repository/open help/Page_Mattermost/input_All team communication in one place, _dcc84b'), 
+    'linhknife796')
 
-WebUI.setText(findTestObject('Object Repository/Create Public channel/Page_Town Square - abc Mattermost/input_Name_newChannelName'), 
-    channelName)
+WebUI.setEncryptedText(findTestObject('Object Repository/open help/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
+    'AUFDKhCnJHCoxVYLtHPNpg==')
 
-WebUI.setText(findTestObject('Object Repository/Create Public channel/Page_Town Square - abc Mattermost/textarea_(optional)_newChannelPurpose'), 
-    purpose)
+WebUI.sendKeys(findTestObject('Object Repository/open help/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
+    Keys.chord(Keys.ENTER))
 
-WebUI.setText(findTestObject('Object Repository/Create Public channel/Page_Town Square - abc Mattermost/textarea_(optional)_newChannelHeader'), 
-    header)
-
-WebUI.click(findTestObject('Object Repository/create public_3/Page_Town Square - eligendi Mattermost/button_Create Channel'))
+WebUI.click(findTestObject('Object Repository/open help/Page_Town Square - eligendi Mattermost/span_Help'))
 
 WebUI.closeBrowser()
 
