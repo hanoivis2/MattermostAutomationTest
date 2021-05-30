@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>ef89afeb-e118-4a33-8647-fe116ea47b9c</testCaseGuid>
+   <variable>
+      <defaultValue>'default content'</defaultValue>
+      <description></description>
+      <id>71dac917-ee06-4fd9-9349-0abe0643c153</id>
+      <masked>false</masked>
+      <name>content</name>
+   </variable>
 </TestCaseEntity>

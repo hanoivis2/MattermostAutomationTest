@@ -23,20 +23,20 @@ WebUI.navigateToUrl('http://localhost:8065/')
 
 WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'), 'user-1')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
+WebUI.setEncryptedText(findTestObject('change dark theme_2/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
     'MZgS3bkacIma+dCTaK/maA==')
 
 WebUI.click(findTestObject('Object Repository/Page_Mattermost/button_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - Cobra Mattermost/path'))
+WebUI.click(findTestObject('change dark theme_2/Page_Town Square - Buffalo Mattermost/button_user-1_style--none sidebar-header-dr_eabf2e'))
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - Cobra Mattermost/button_Account Settings'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - Cobra Mattermost/span_Click Edit to add your job title  position'))
+WebUI.click(findTestObject('Object Repository/edit position_2/Page_Town Square - eligendi Mattermost/div_PositionEditClick Edit to add your job _c455d1'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Town Square - Cobra Mattermost/input_Position_position'), position)
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - Cobra Mattermost/button_Save'))
+WebUI.sendKeys(findTestObject('Page_Town Square - Cobra Mattermost/input_Position_position'), Keys.chord(Keys.ENTER))
 
 WebUI.closeBrowser()
 

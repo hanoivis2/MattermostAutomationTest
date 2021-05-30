@@ -17,21 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('UsingCSV/LoginUsers'), [('username') : username, ('password') : password], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/span'))
+WebUI.navigateToUrl('http://localhost:8065/login')
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/button_Account Settings'))
+WebUI.setText(findTestObject('Object Repository/change dark theme_2/Page_Mattermost/input_All team communication in one place, _dcc84b'), 
+    'linhknife796')
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/button_Display'))
+WebUI.setEncryptedText(findTestObject('Object Repository/change dark theme_2/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
+    'AUFDKhCnJHCoxVYLtHPNpg==')
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/span_Edit'))
+WebUI.click(findTestObject('Object Repository/change dark theme_2/Page_Mattermost/span_Sign in'))
 
-if (username.length() > 12) {
-    WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/img_Mattermost Dark_img-responsive'))
-}
+WebUI.click(findTestObject('Object Repository/change dark theme_2/Page_Town Square - eligendi Mattermost/svg'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/button_Save'))
+WebUI.click(findTestObject('Object Repository/change dark theme_2/Page_Town Square - eligendi Mattermost/button_Account Settings'))
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/change dark theme_2/Page_Town Square - eligendi Mattermost/button_Display'))
+
+WebUI.click(findTestObject('Object Repository/change dark theme_2/Page_Town Square - eligendi Mattermost/div_ThemeEditOpen to manage your theme'))
+
+WebUI.click(findTestObject('Object Repository/change dark theme_2/Page_Town Square - eligendi Mattermost/img_Mattermost Dark_img-responsive'))
+
+WebUI.click(findTestObject('Object Repository/change dark theme_2/Page_Town Square - eligendi Mattermost/button_Save'))
+
+WebUI.click(findTestObject('Object Repository/change dark theme_2/Page_Town Square - eligendi Mattermost/span_'))
 

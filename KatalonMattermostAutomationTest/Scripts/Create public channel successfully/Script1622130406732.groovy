@@ -19,7 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login successfully'), [('username') : username, ('password') : password], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Create Public channel/Page_Town Square - abc Mattermost/span_'))
+WebUI.click(findTestObject('Object Repository/create public_2/Page_Town Square - eligendi Mattermost/i_K_icon-plus'))
+
+WebUI.click(findTestObject('Object Repository/create public_2/Page_Town Square - eligendi Mattermost/span_Create New Channel'))
 
 WebUI.setText(findTestObject('Object Repository/Create Public channel/Page_Town Square - abc Mattermost/input_Name_newChannelName'), 
     channelName)

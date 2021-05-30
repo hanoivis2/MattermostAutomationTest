@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>38f3c764-b3a3-49a8-af40-708c2a9329a8</testCaseGuid>
+   <variable>
+      <defaultValue>'ten channel header'</defaultValue>
+      <description></description>
+      <id>db3e5181-bb5c-431c-bfd0-b29f4aeb758e</id>
+      <masked>false</masked>
+      <name>channelHeader</name>
+   </variable>
 </TestCaseEntity>

@@ -13,14 +13,14 @@
       <name>channelDisplay</name>
    </variable>
    <variable>
-      <defaultValue>'linhknife796'</defaultValue>
+      <defaultValue>'user-1'</defaultValue>
       <description></description>
       <id>210b7f60-da04-413b-a8b7-2d31a2d85ea9</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
-      <defaultValue>'linhknife796'</defaultValue>
+      <defaultValue>'SampleUs@r-1'</defaultValue>
       <description></description>
       <id>2380d8c0-df7e-47e0-a3f9-1eb4a4229990</id>
       <masked>false</masked>

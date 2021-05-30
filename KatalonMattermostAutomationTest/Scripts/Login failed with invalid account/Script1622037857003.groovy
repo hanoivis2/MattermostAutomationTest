@@ -23,7 +23,7 @@ WebUI.navigateToUrl('http://localhost:8065/login')
 
 WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place, _dcc84b'), username)
 
-WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place, _a3edc6'), password)
+WebUI.setText(findTestObject('ChangeThemeCustom/Page_Mattermost/input_All team communication in one place, _a3edc6'), password)
 
 WebUI.click(findTestObject('Page_Mattermost/span_Sign in'))
 

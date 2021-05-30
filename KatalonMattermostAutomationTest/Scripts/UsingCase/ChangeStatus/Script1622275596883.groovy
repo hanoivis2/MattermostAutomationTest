@@ -19,39 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('localhost:8065')
+WebUI.navigateToUrl('http://localhost:8065/login')
 
-WebUI.setText(findTestObject('Object Repository/ChangeStatus/Page_Mattermost/input_All team communication in one place, _dcc84b'), 
+WebUI.setText(findTestObject('Object Repository/update status_2/Page_Mattermost/input_All team communication in one place, _dcc84b'), 
     'user-1')
 
-WebUI.setText(findTestObject('Object Repository/ChangeStatus/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
-    'SampleUs@r-1')
+WebUI.setEncryptedText(findTestObject('Object Repository/update status_2/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
+    'MZgS3bkacIma+dCTaK/maA==')
 
-WebUI.click(findTestObject('Object Repository/ChangeStatus/Page_Mattermost/span_Sign in'))
+WebUI.click(findTestObject('Object Repository/update status_2/Page_Mattermost/button_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/ChangeStatus/Page_Town Square - abc Mattermost/i__fa fa-caret-down'))
+WebUI.click(findTestObject('Object Repository/Leave Team/Page_Town Square - abc Mattermost/span_Yes, set my status to Online'))
 
-WebUI.click(findTestObject('Object Repository/ChangeStatus/Page_Town Square - abc Mattermost/span_Away'))
-
-WebUI.openBrowser('')
+WebUI.click(findTestObject('Object Repository/Leave Team/Page_Town Square - abc Mattermost/div_Bu'))
 
 WebUI.closeBrowser()
-
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://cdnccnpm1.herokuapp.com/')
-
-WebUI.setText(findTestObject('Object Repository/ChangeStatus/Page_Mattermost/input_All team communication in one place, _dcc84b'), 
-    'linhknife796')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/ChangeStatus/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
-    'HGnKy8xZufLE9vEr3x7Zxw==')
-
-WebUI.click(findTestObject('Object Repository/ChangeStatus/Page_Mattermost/span_Sign in'))
-
-WebUI.click(findTestObject('Object Repository/ChangeStatus/Page_Town Square - abc Mattermost/span_Yes, set my status to Online'))
-
-WebUI.click(findTestObject('Object Repository/ChangeStatus/Page_Town Square - abc Mattermost/i__fa fa-caret-down'))
-
-WebUI.click(findTestObject('Object Repository/ChangeStatus/Page_Town Square - abc Mattermost/span_Away'))
 

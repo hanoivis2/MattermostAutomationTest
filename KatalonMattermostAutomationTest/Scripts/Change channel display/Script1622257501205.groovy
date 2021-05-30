@@ -19,16 +19,16 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login successfully'), [('username') : username, ('password') : password], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Change appearance/Page_Town Square - abc Mattermost/path'))
+WebUI.click(findTestObject('change dark theme_2/Page_Town Square - Buffalo Mattermost/button_user-1_style--none sidebar-header-dr_eabf2e'))
 
 WebUI.click(findTestObject('Object Repository/Change appearance/Page_Town Square - abc Mattermost/span_Account Settings'))
 
 WebUI.click(findTestObject('Object Repository/Change appearance/Page_Town Square - abc Mattermost/button_Display'))
 
-WebUI.click(findTestObject('Object Repository/Chnage channel display/Page_Town Square - abc Mattermost/div_Channel DisplayEditFixed width, centered'))
+WebUI.click(findTestObject('change channel_2/Page_Town Square - eligendi Mattermost/div_Channel DisplayEditFull width'))
 
 if (channelDisplay == 'Full') {
-    WebUI.click(findTestObject('Object Repository/Chnage channel display/Page_Town Square - abc Mattermost/label_Full width'))
+    WebUI.click(findTestObject('Object Repository/change channel_2/Page_Town Square - eligendi Mattermost/input_Channel Display_channel_display_modeFormat'))
 } else {
     WebUI.click(findTestObject('Object Repository/AccountSetting Display/Page_Town Square - abc Mattermost/input_Full width_channel_display_modeFormat'))
 }
@@ -36,4 +36,6 @@ if (channelDisplay == 'Full') {
 WebUI.click(findTestObject('Object Repository/AccountSetting Display/Page_Town Square - abc Mattermost/span_Save'))
 
 WebUI.click(findTestObject('Object Repository/AccountSetting Display/Page_Town Square - abc Mattermost/span_'))
+
+WebUI.closeBrowser()
 

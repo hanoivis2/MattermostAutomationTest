@@ -6,35 +6,35 @@
    <comment></comment>
    <testCaseGuid>c7543024-2186-42aa-909a-1310fab730d6</testCaseGuid>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'test1'</defaultValue>
       <description></description>
       <id>7c154626-716a-450d-827f-88a91b7ffde0</id>
       <masked>false</masked>
       <name>channelName</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'test1'</defaultValue>
       <description></description>
       <id>93e4e69b-4cec-49fd-99d0-3519a4273d54</id>
       <masked>false</masked>
       <name>purpose</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'test1'</defaultValue>
       <description></description>
       <id>247e7af2-52e1-48e8-a149-c83f040f2eaa</id>
       <masked>false</masked>
       <name>header</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'linhknife796'</defaultValue>
       <description></description>
       <id>9e771553-351a-459b-a5f9-92cd5c1c08a3</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Linhknife796@'</defaultValue>
       <description></description>
       <id>d5ae26d8-de75-4fa8-9ca5-e8c751004a6a</id>
       <masked>false</masked>

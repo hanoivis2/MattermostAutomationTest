@@ -9,10 +9,14 @@
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
    <data>Full</data>
+   <data>Fixed</data>
+   <data>full2</data>
+   <data>fixed2</data>
+   <data>test</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>channelDisplay</name>
-      <size>1</size>
+      <size>5</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

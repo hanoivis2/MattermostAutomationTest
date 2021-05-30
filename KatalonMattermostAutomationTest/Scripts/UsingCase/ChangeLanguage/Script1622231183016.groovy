@@ -23,20 +23,20 @@ WebUI.navigateToUrl('http://localhost:8065/')
 
 WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'), 'user-1')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
+WebUI.setEncryptedText(findTestObject('change dark theme_2/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
     'MZgS3bkacIma+dCTaK/maA==')
 
 WebUI.click(findTestObject('Object Repository/Page_Mattermost/button_Sign in'))
 
 String lang = language
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/svg'))
+WebUI.click(findTestObject('change dark theme_2/Page_Town Square - Buffalo Mattermost/button_user-1_style--none sidebar-header-dr_eabf2e'))
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/button_Account Settings'))
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/button_Display'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/span_Edit'))
+WebUI.click(findTestObject('Object Repository/edit language_2/Page_Town Square - Buffalo Mattermost/div_LanguageEditEnglish'))
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/div_English'))
 
@@ -66,4 +66,6 @@ switch (lang) {
             'English')}
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/button_Save'))
+
+WebUI.closeBrowser()
 

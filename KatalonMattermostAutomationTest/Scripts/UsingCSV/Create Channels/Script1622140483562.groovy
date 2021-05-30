@@ -17,14 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8065/')
 
-WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'), 'user-1')
+WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place, _dcc84b'), 'user-1')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
+WebUI.setEncryptedText(findTestObject('ChangeTeamName/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
     'MZgS3bkacIma+dCTaK/maA==')
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'), Keys.chord(
@@ -32,7 +31,7 @@ WebUI.sendKeys(findTestObject('Object Repository/Page_Mattermost/input_All team 
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - mastermost7961 Mattermost/span_'))
 
-if (type.equals("public")) {
+if (type.equals('public')) {
     WebUI.click(findTestObject('Object Repository/Page_Town Square - mastermost7961 Mattermost/label_Public - Anyone can join this channel'))
 } else {
     WebUI.click(findTestObject('Object Repository/Page_Town Square - mastermost7961 Mattermost/label_Private - Only invited members can jo_3e905d'))
@@ -50,5 +49,4 @@ WebUI.setText(findTestObject('Object Repository/Page_Town Square - mastermost796
 WebUI.click(findTestObject('Object Repository/Page_Town Square - mastermost7961 Mattermost/button_Create Channel'))
 
 WebUI.closeBrowser()
-
 

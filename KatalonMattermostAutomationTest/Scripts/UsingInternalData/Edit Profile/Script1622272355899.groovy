@@ -19,23 +19,23 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('localhost:8065')
+WebUI.navigateToUrl('http://localhost:8065')
 
 WebUI.setText(findTestObject('Object Repository/Page_Edit_Profile/Page_Mattermost/input_All team communication in one place, _dcc84b'), 
     'user-1')
 
-WebUI.setText(findTestObject('Object Repository/Page_Edit_Profile/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
-    'SampleUs@r-1')
+WebUI.setText(findTestObject('ChangeTeamIcon/Page_Mattermost/input_All team communication in one place, _a3edc6'), 'SampleUs@r-1')
 
-WebUI.click(findTestObject('Object Repository/Page_Edit_Profile/Page_Mattermost/span_Sign in'))
+WebUI.sendKeys(findTestObject('ChangeTeamIcon/Page_Mattermost/input_All team communication in one place, _a3edc6'), Keys.chord(
+        Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Page_Edit_Profile/Page_Town Square - abc Mattermost/path'))
+WebUI.click(findTestObject('change dark theme_2/Page_Town Square - Buffalo Mattermost/button_user-1_style--none sidebar-header-dr_eabf2e'))
 
-WebUI.click(findTestObject('Object Repository/Page_Edit_Profile/Page_Town Square - abc Mattermost/span_Account Settings'))
+WebUI.click(findTestObject('Object Repository/edit profile_2/Page_Town Square - eligendi Mattermost/button_Account Settings'))
 
-WebUI.click(findTestObject('Object Repository/Page_Edit_Profile/Page_Town Square - abc Mattermost/span_Edit'))
+WebUI.click(findTestObject('Object Repository/edit profile_2/Page_Town Square - eligendi Mattermost/div_Profile PictureEditClick Edit to upload_34c473'))
 
-WebUI.click(findTestObject('Object Repository/Page_Edit_Profile/Page_Town Square - abc Mattermost/span_Select'))
+WebUI.click(findTestObject('Object Repository/edit profile_2/Page_Town Square - eligendi Mattermost/span_Cancel'))
 
-WebUI.click(findTestObject('Object Repository/Page_Edit_Profile/Page_Town Square - abc Mattermost/span_Save'))
+WebUI.closeBrowser()
 

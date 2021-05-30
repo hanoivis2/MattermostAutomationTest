@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>472d1def-a42b-4eeb-aad5-4fe32aefb3b8</testCaseGuid>
+   <variable>
+      <defaultValue>'cong'</defaultValue>
+      <description></description>
+      <id>8cb1e55c-5697-4570-a7fd-3833e318aed3</id>
+      <masked>false</masked>
+      <name>searchMemberKeyword</name>
+   </variable>
 </TestCaseEntity>

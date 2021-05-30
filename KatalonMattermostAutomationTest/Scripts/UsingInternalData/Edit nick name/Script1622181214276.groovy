@@ -19,24 +19,24 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://cdnccnpm1.herokuapp.com/')
+WebUI.navigateToUrl('http://localhost:8065')
 
-WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'), 'user-1')
+WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place, _dcc84b'), 'user-1')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
+WebUI.setEncryptedText(findTestObject('ChangeThemeCustom/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
     'MZgS3bkacIma+dCTaK/maA==')
 
 WebUI.click(findTestObject('Object Repository/Page_Mattermost/button_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - Buffalo Mattermost/svg'))
+WebUI.click(findTestObject('change dark theme_2/Page_Town Square - Buffalo Mattermost/button_user-1_style--none sidebar-header-dr_eabf2e'))
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - Buffalo Mattermost/button_Account Settings'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - Buffalo Mattermost/span_Click Edit to add a nickname'))
+WebUI.click(findTestObject('Object Repository/Edit nickname_2/Page_Town Square - eligendi Mattermost/div_NicknameEditClick Edit to add a nickname'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Town Square - Buffalo Mattermost/input_Nickname_nickname'), nickname)
+WebUI.setText(findTestObject('Page_Town Square - Buffalo Mattermost/input_Nickname_nickname'), nickname)
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - Buffalo Mattermost/button_Save'))
+WebUI.sendKeys(findTestObject('Page_Town Square - Buffalo Mattermost/input_Nickname_nickname'), Keys.chord(Keys.ENTER))
 
 WebUI.closeBrowser()
 

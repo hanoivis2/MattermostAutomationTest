@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('localhost:8065')
+WebUI.navigateToUrl('http://localhost:8065')
 
 WebUI.setText(findTestObject('Object Repository/Leave Team/Page_Mattermost/input_All team communication in one place, _dcc84b'), 
     'user-1')
@@ -29,13 +29,11 @@ WebUI.setText(findTestObject('Object Repository/Leave Team/Page_Mattermost/input
 
 WebUI.click(findTestObject('Object Repository/Leave Team/Page_Mattermost/span_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/Leave Team/Page_Town Square - abc Mattermost/span_Yes, set my status to Online'))
-
-WebUI.click(findTestObject('Object Repository/Leave Team/Page_Town Square - abc Mattermost/div_Bu'))
-
 WebUI.click(findTestObject('Object Repository/Leave Team/Page_Town Square - Buffalo Mattermost/button_linhknife796_style--none sidebar-hea_0abf9a'))
 
 WebUI.click(findTestObject('Object Repository/Leave Team/Page_Town Square - Buffalo Mattermost/span_Leave Team'))
 
 WebUI.click(findTestObject('Object Repository/Leave Team/Page_Town Square - Buffalo Mattermost/button_Yes'))
+
+WebUI.closeBrowser()
 

@@ -16,7 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.*;
+import com.*
 
 WebUI.openBrowser('')
 
@@ -29,7 +29,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_A
 
 WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/ChangeTeamName/Page_Town Square - Chiken Mattermost/svg'))
+WebUI.click(findTestObject('change dark theme_2/Page_Town Square - Buffalo Mattermost/button_user-1_style--none sidebar-header-dr_eabf2e'))
 
 WebUI.click(findTestObject('Object Repository/ChangeTeamName/Page_Town Square - Chiken Mattermost/span_Team Settings'))
 
@@ -41,4 +41,6 @@ for (int i = 0; i < 4; i++) {
 
     WebUI.click(findTestObject('ChangeTeamName/Page_Town Square - Chiken Mattermost/span_Save'))
 }
+
+WebUI.closeBrowser()
 

@@ -19,23 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('localhost:8065')
+WebUI.navigateToUrl('http://localhost:8065/login')
 
-WebUI.setText(findTestObject('Object Repository/ChangeTeamIcon/Page_Mattermost/input_All team communication in one place, _dcc84b'), 
+WebUI.setText(findTestObject('Object Repository/change team icon_2/Page_Mattermost/input_All team communication in one place, _dcc84b'), 
     'user-1')
 
-WebUI.setText(findTestObject('Object Repository/ChangeTeamIcon/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
-    'SampleUs@r-1')
+WebUI.setEncryptedText(findTestObject('Object Repository/change team icon_2/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
+    'MZgS3bkacIma+dCTaK/maA==')
 
-WebUI.click(findTestObject('Object Repository/ChangeTeamIcon/Page_Mattermost/span_Sign in'))
+WebUI.click(findTestObject('Object Repository/change team icon_2/Page_Mattermost/span_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/ChangeTeamIcon/Page_Town Square - abc Mattermost/svg'))
+WebUI.click(findTestObject('Object Repository/change team icon_2/Page_Town Square - Buffalo Mattermost/svg'))
 
-WebUI.click(findTestObject('Object Repository/ChangeTeamIcon/Page_Town Square - abc Mattermost/button_Team Settings'))
+WebUI.click(findTestObject('Object Repository/change team icon_2/Page_Town Square - Buffalo Mattermost/span_Team Settings'))
 
-WebUI.click(findTestObject('Object Repository/ChangeTeamIcon/Page_Town Square - abc Mattermost/span_Edit'))
+WebUI.click(findTestObject('Object Repository/change team icon_2/Page_Town Square - Buffalo Mattermost/div_Team IconEdit'))
 
-WebUI.click(findTestObject('Object Repository/ChangeTeamIcon/Page_Town Square - abc Mattermost/span_Select'))
-
-WebUI.click(findTestObject('Object Repository/ChangeTeamIcon/Page_Town Square - abc Mattermost/span_Save'))
+WebUI.click(findTestObject('Object Repository/change team icon_2/Page_Town Square - Buffalo Mattermost/span_Save'))
 

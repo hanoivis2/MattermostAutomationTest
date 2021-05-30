@@ -19,62 +19,26 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('localhost:8065')
+WebUI.navigateToUrl('http://localhost:8065/login')
 
-WebUI.setText(findTestObject('Object Repository/SetChanelHeader/Page_Mattermost/input_All team communication in one place, _dcc84b'), 
+WebUI.setText(findTestObject('Object Repository/edit header channel_2/Page_Mattermost/input_All team communication in one place, _dcc84b'), 
     'user-1')
 
-WebUI.setText(findTestObject('Object Repository/SetChanelHeader/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
-    'SampleUs@r-1')
+WebUI.setEncryptedText(findTestObject('Object Repository/edit header channel_2/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
+    'MZgS3bkacIma+dCTaK/maA==')
 
-WebUI.click(findTestObject('Object Repository/SetChanelHeader/Page_Mattermost/span_Sign in'))
+WebUI.sendKeys(findTestObject('Object Repository/edit header channel_2/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
+    Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/SetChanelHeader/Page_Town Square - abc Mattermost/span_'))
+WebUI.click(findTestObject('Object Repository/edit header channel_2/Page_Town Square - Buffalo Mattermost/span_Town Square_channelHeaderDropdownIcon'))
 
-WebUI.setText(findTestObject('Object Repository/SetChanelHeader/Page_Town Square - abc Mattermost/input_Name_newChannelName'), 
-    'abc')
+WebUI.click(findTestObject('Object Repository/edit header channel_2/Page_Town Square - Buffalo Mattermost/button_Edit Channel Header'))
 
-WebUI.click(findTestObject('Object Repository/SetChanelHeader/Page_Town Square - abc Mattermost/span_Create Channel'))
+WebUI.setText(findTestObject('Object Repository/edit header channel_2/Page_Town Square - Buffalo Mattermost/textarea_4_conganhhcmus'), 
+    channelHeader)
 
-WebUI.click(findTestObject('Object Repository/SetChanelHeader/Page_abc - abc Mattermost/span_(Edit)'))
+WebUI.sendKeys(findTestObject('Object Repository/edit header channel_2/Page_Town Square - Buffalo Mattermost/textarea_4_conganhhcmus'), 
+    Keys.chord(Keys.ENTER))
 
-WebUI.setText(findTestObject('Object Repository/SetChanelHeader/Page_abc - abc Mattermost/textarea_Edit the Channel Header_edit_textbox'), 
-    'A')
-
-WebUI.setText(findTestObject('Object Repository/SetChanelHeader/Page_abc - abc Mattermost/textarea_A'), 'Ad')
-
-WebUI.setText(findTestObject('Object Repository/SetChanelHeader/Page_abc - abc Mattermost/textarea_Ad'), 'Add')
-
-WebUI.setText(findTestObject('Object Repository/SetChanelHeader/Page_abc - abc Mattermost/textarea_Add'), 'Add ')
-
-WebUI.setText(findTestObject('Object Repository/SetChanelHeader/Page_abc - abc Mattermost/textarea_Add_1'), 'Add')
-
-WebUI.setText(findTestObject('Object Repository/SetChanelHeader/Page_abc - abc Mattermost/textarea_Add'), 'Ad')
-
-WebUI.setText(findTestObject('Object Repository/SetChanelHeader/Page_abc - abc Mattermost/textarea_Ad'), 'A')
-
-WebUI.setText(findTestObject('Object Repository/SetChanelHeader/Page_abc - abc Mattermost/textarea_A'), '')
-
-WebUI.setText(findTestObject('Object Repository/SetChanelHeader/Page_abc - abc Mattermost/textarea_Edit the Channel Header_edit_textbox'), 
-    's')
-
-WebUI.setText(findTestObject('Object Repository/SetChanelHeader/Page_abc - abc Mattermost/textarea_s'), 'se')
-
-WebUI.setText(findTestObject('Object Repository/SetChanelHeader/Page_abc - abc Mattermost/textarea_se'), 'set')
-
-WebUI.setText(findTestObject('Object Repository/SetChanelHeader/Page_abc - abc Mattermost/textarea_set'), 'set ')
-
-WebUI.setText(findTestObject('Object Repository/SetChanelHeader/Page_abc - abc Mattermost/textarea_set_1'), 'set h')
-
-WebUI.setText(findTestObject('Object Repository/SetChanelHeader/Page_abc - abc Mattermost/textarea_set h'), 'set he')
-
-WebUI.setText(findTestObject('Object Repository/SetChanelHeader/Page_abc - abc Mattermost/textarea_set he'), 'set hea')
-
-WebUI.setText(findTestObject('Object Repository/SetChanelHeader/Page_abc - abc Mattermost/textarea_set hea'), 'set head')
-
-WebUI.setText(findTestObject('Object Repository/SetChanelHeader/Page_abc - abc Mattermost/textarea_set head'), 'set heade')
-
-WebUI.setText(findTestObject('Object Repository/SetChanelHeader/Page_abc - abc Mattermost/textarea_set heade'), 'set header')
-
-WebUI.click(findTestObject('Object Repository/SetChanelHeader/Page_abc - abc Mattermost/span_Save'))
+WebUI.closeBrowser()
 

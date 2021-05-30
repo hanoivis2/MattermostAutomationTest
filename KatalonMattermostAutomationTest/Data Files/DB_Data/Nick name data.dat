@@ -11,10 +11,12 @@
    <data>Noobs</data>
    <data>Pro+player</data>
    <data>Stupid</data>
+   <data>Na</data>
+   <data>Em</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>Nickname</name>
-      <size>3</size>
+      <size>5</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

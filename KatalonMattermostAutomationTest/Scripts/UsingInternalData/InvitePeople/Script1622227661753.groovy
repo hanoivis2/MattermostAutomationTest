@@ -23,12 +23,12 @@ WebUI.navigateToUrl('http://localhost:8065/')
 
 WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'), username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
+WebUI.setText(findTestObject('change dark theme_2/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
     password)
 
 WebUI.click(findTestObject('Object Repository/Page_Mattermost/button_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/svg'))
+WebUI.click(findTestObject('change dark theme_2/Page_Town Square - Buffalo Mattermost/button_user-1_style--none sidebar-header-dr_eabf2e'))
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/button_Invite PeopleAdd or invite people to_5d2fc4'))
 

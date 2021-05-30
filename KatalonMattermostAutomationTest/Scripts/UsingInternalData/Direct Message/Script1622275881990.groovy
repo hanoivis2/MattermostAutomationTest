@@ -19,30 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('localhost:8065')
+WebUI.navigateToUrl('http://localhost:8065/login')
 
-WebUI.setText(findTestObject('Object Repository/DirectMessage/Page_Mattermost/input_All team communication in one place, _dcc84b'), 
+WebUI.setText(findTestObject('Object Repository/direct message_2/Page_Mattermost/input_All team communication in one place, _dcc84b'), 
     'user-1')
 
-WebUI.setText(findTestObject('Object Repository/DirectMessage/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
-    'SampleUs@r-1')
+WebUI.setEncryptedText(findTestObject('Object Repository/direct message_2/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
+    'MZgS3bkacIma+dCTaK/maA==')
 
-WebUI.click(findTestObject('Object Repository/DirectMessage/Page_Mattermost/button_Sign in'))
+WebUI.click(findTestObject('Object Repository/direct message_2/Page_Mattermost/button_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/DirectMessage/Page_Town Square - abc Mattermost/span_'))
+WebUI.click(findTestObject('Object Repository/direct message_2/Page_Town Square - Buffalo Mattermost/div_rebecca.ruiz'))
 
-WebUI.click(findTestObject('Object Repository/DirectMessage/Page_Town Square - abc Mattermost/div_conganhhcmusgmail.com'))
+WebUI.setText(findTestObject('Object Repository/direct message_2/Page_rebecca.ruiz - Buffalo Mattermost/textarea_Write to rebecca.ruiz_post_textbox'), 
+    content)
 
-WebUI.click(findTestObject('Object Repository/DirectMessage/Page_Town Square - abc Mattermost/div_conganhhcmus1'))
-
-WebUI.click(findTestObject('Object Repository/DirectMessage/Page_Town Square - abc Mattermost/span_Go'))
-
-WebUI.setText(findTestObject('Object Repository/DirectMessage/Page_conganhhcmus, conganhhcmus1 - abc Mattermost/textarea_Write to conganhhcmus, conganhhcmu_8ebd96'), 
-    'A')
-
-WebUI.setText(findTestObject('Object Repository/DirectMessage/Page_conganhhcmus, conganhhcmus1 - abc Mattermost/textarea_A'), 
-    'AB')
-
-WebUI.setText(findTestObject('Object Repository/DirectMessage/Page_conganhhcmus, conganhhcmus1 - abc Mattermost/textarea_AB'), 
-    'ABC')
+WebUI.sendKeys(findTestObject('direct message_2/Page_rebecca.ruiz - Buffalo Mattermost/textarea_Write to rebecca.ruiz_post_textbox'), 
+    Keys.chord(Keys.ENTER))
 

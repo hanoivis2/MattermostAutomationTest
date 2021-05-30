@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8065/')
 
-WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'), 'user-1')
+WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place, _dcc84b'), 'user-1')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
+WebUI.setEncryptedText(findTestObject('ChangeThemeCustom/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
     'MZgS3bkacIma+dCTaK/maA==')
 
 WebUI.click(findTestObject('Object Repository/Page_Mattermost/button_Sign in'))
@@ -34,7 +34,8 @@ WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/
 
 WebUI.setText(findTestObject('Object Repository/Page_Town Square - abc Mattermost/textarea_aaaa'), description)
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/button_Save'))
+WebUI.sendKeys(findTestObject('Page_Town Square - abc Mattermost/textarea_Edit the Channel Header_edit_textbox'), Keys.chord(
+        Keys.ENTER))
 
 WebUI.closeBrowser()
 

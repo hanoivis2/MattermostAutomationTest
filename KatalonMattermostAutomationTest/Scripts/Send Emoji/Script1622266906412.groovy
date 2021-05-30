@@ -19,9 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login successfully'), [('username') : 'user-1', ('password') : 'SampleUs@r-1'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Write comment/Page_Town Square - abc Mattermost/textarea_Write to Town Square_post_textbox'), 
-    ':smiley:')
+for (def index : (0..0)) {
+    for (def i : (0..index + 1)) {
+		WebUI.setText(findTestObject('Write comment/Page_Town Square - abc Mattermost/textarea_Write to Town Square_post_textbox'),
+			':smiley:')
+	}
 
-WebUI.sendKeys(findTestObject('Write comment/Page_Town Square - abc Mattermost/textarea_Write to Town Square_post_textbox'), 
-    Keys.chord(Keys.ENTER))
+    WebUI.sendKeys(findTestObject('Write comment/Page_Town Square - abc Mattermost/textarea_Write to Town Square_post_textbox'), 
+        Keys.chord(Keys.ENTER))
+}
 

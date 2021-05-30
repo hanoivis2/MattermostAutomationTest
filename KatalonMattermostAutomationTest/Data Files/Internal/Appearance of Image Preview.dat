@@ -8,21 +8,25 @@
    <dataFileGUID>6f4de298-a49c-43cc-b897-98bf4f0004d5</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>Collapsed linhknife796 linhknife796</data>
+   <data>Collapsed user-1 SampleUs%40r-1</data>
+   <data>Expanded user-1 SampleUs%40r-1</data>
+   <data>dalsl user-1 SampleUs%40r-1</data>
+   <data>908asfl user-1 SampleUs%40r-1</data>
+   <data>dong5 user-1 SampleUs%40r-1</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>appearanceOfImagePreview</name>
-      <size>1</size>
+      <size>5</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>username</name>
-      <size>1</size>
+      <size>5</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
       <name>password</name>
-      <size>1</size>
+      <size>5</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

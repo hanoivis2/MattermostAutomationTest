@@ -24,16 +24,14 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8065/')
 
-WebUI.click(findTestObject('Object Repository/Page_Mattermost/h1_Mattermost'))
-
 if (WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Mattermost/span_Sign in'), 1)) {
-	
-	WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'), 'user-1')
-	
-	WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'),
-		'MZgS3bkacIma+dCTaK/maA==')
-	
-	WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Sign in'))
+    WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'), 
+        'user-1')
+
+    WebUI.setEncryptedText(findTestObject('ChangeTeamIcon/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
+        'MZgS3bkacIma+dCTaK/maA==')
+
+    WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Sign in'))
 }
 
 WebUI.setText(findTestObject('Object Repository/Page_nhom1 - mastermost7961 Mattermost/input_nhom1_searchBox'), 'hi')
@@ -45,8 +43,6 @@ WebUI.setText(findTestObject('Object Repository/Page_nhom1 - mastermost7961 Matt
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_nhom1 - mastermost7961 Mattermost/input_nhom1_searchBox'), Keys.chord(
         Keys.ENTER))
-
-WebUI.click(findTestObject('Object Repository/Page_nhom1 - mastermost7961 Mattermost/div_hello'))
 
 WebUI.closeBrowser()
 

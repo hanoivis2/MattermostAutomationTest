@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login successfully'), [('username') : username, ('password') : password], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Change clock display/Page_Town Square - abc Mattermost/path'))
+WebUI.click(findTestObject('change dark theme_2/Page_Town Square - Buffalo Mattermost/button_user-1_style--none sidebar-header-dr_eabf2e'))
 
 WebUI.click(findTestObject('Object Repository/Change clock display/Page_Town Square - abc Mattermost/button_Account Settings'))
 
@@ -36,4 +36,6 @@ if (timeFormat == 12) {
 WebUI.click(findTestObject('Object Repository/Change clock display/Page_Town Square - abc Mattermost/span_Save'))
 
 WebUI.click(findTestObject('Object Repository/Change clock display/Page_Town Square - abc Mattermost/span_'))
+
+WebUI.closeBrowser()
 

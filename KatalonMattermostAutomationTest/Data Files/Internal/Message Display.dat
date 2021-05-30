@@ -9,10 +9,14 @@
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
    <data>Compact</data>
+   <data>Standard</data>
+   <data>Compact2</data>
+   <data>Standard2</data>
+   <data>ABCxx</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>messageDisplay</name>
-      <size>1</size>
+      <size>5</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8065/')
 
-WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'), username)
+WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place, _dcc84b'), username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
+WebUI.setEncryptedText(findTestObject('ChangeTeamName/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
     password)
 
 WebUI.click(findTestObject('Object Repository/Page_Mattermost/button_Sign in'))

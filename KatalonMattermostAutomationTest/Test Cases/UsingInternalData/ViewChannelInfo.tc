@@ -6,14 +6,14 @@
    <comment></comment>
    <testCaseGuid>f02cdc39-6a44-4662-bc9e-b968ec05311a</testCaseGuid>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'linhknife796'</defaultValue>
       <description></description>
       <id>74e36162-2250-4688-814a-6231a01c7e85</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Linhknife796@'</defaultValue>
       <description></description>
       <id>c7535143-e2df-4a15-809b-dccc30bc6536</id>
       <masked>false</masked>

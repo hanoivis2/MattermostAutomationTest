@@ -5,4 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>b9cad315-0434-4c93-981d-a4d752655cc3</testCaseGuid>
+   <variable>
+      <defaultValue>'linhknife796'</defaultValue>
+      <description></description>
+      <id>dddfd487-7c61-40e7-b545-6adc5f3b13e8</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Linhknife796@'</defaultValue>
+      <description></description>
+      <id>dad960bb-70e9-4f85-b65e-b5ab997d53a7</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
 </TestCaseEntity>

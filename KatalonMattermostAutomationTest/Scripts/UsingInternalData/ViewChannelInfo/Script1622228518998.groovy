@@ -23,7 +23,7 @@ WebUI.navigateToUrl('http://localhost:8065/')
 
 WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'), username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
+WebUI.setText(findTestObject('change dark theme_2/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
     password)
 
 WebUI.click(findTestObject('Object Repository/Page_Mattermost/button_Sign in'))
@@ -31,8 +31,6 @@ WebUI.click(findTestObject('Object Repository/Page_Mattermost/button_Sign in'))
 WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/span_Town Square_channelHeaderDropdownIcon'))
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/button_View Info'))
-
-WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/button_Close'))
 
 WebUI.closeBrowser()
 

@@ -19,19 +19,23 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('localhost:8065')
+WebUI.navigateToUrl('http://localhost:8065/login')
 
-WebUI.setText(findTestObject('Object Repository/SearchAndAddMember/Page_Mattermost/input_All team communication in one place, _dcc84b'), 
-    'user-1')
+WebUI.setText(findTestObject('Object Repository/search member_2/Page_Mattermost/input_All team communication in one place, _dcc84b'), 
+    'linhknife796')
 
-WebUI.setText(findTestObject('Object Repository/SearchAndAddMember/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
-    'SampleUs@r-1')
+WebUI.setEncryptedText(findTestObject('Object Repository/search member_2/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
+    'AUFDKhCnJHCoxVYLtHPNpg==')
 
-WebUI.click(findTestObject('Object Repository/SearchAndAddMember/Page_Mattermost/span_Sign in'))
+WebUI.sendKeys(findTestObject('Object Repository/search member_2/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
+    Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/SearchAndAddMember/Page_Town Square - abc Mattermost/button_More'))
+WebUI.click(findTestObject('Object Repository/search member_2/Page_Town Square - eligendi Mattermost/button_linhknife796_style--none sidebar-hea_0abf9a'))
 
-WebUI.click(findTestObject('Object Repository/SearchAndAddMember/Page_Town Square - abc Mattermost/div_conganhhcmusgmail.com_more-modal__actio_52b7f1'))
+WebUI.click(findTestObject('Object Repository/search member_2/Page_Town Square - eligendi Mattermost/button_View Members'))
 
-WebUI.click(findTestObject('Object Repository/SearchAndAddMember/Page_Town Square - abc Mattermost/button_Go'))
+WebUI.setText(findTestObject('Object Repository/search member_2/Page_Town Square - eligendi Mattermost/input_Search users_searchUsersInput'), 
+    searchMemberKeyword)
+
+WebUI.closeBrowser()
 

@@ -8,21 +8,25 @@
    <dataFileGUID>797e2ec4-da4b-4bc9-9850-0471600941af</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>24 linhknife796 linhknife796</data>
+   <data>24 user-1 SampleUs%40r-1</data>
+   <data>12 user-1 SampleUs%40r-1</data>
+   <data>18 user-1 SampleUs%40r-1</data>
+   <data>20 user-1 SampleUs%40r-1</data>
+   <data>10 user-1 SampleUs%40r-1</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>timeFormat</name>
-      <size>1</size>
+      <size>5</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>username</name>
-      <size>1</size>
+      <size>5</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
       <name>password</name>
-      <size>1</size>
+      <size>5</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

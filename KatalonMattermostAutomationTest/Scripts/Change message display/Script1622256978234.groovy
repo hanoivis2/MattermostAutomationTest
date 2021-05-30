@@ -19,21 +19,23 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login successfully'), [('username') : username, ('password') : password], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Change appearance/Page_Town Square - abc Mattermost/path'))
+WebUI.click(findTestObject('change dark theme_2/Page_Town Square - Buffalo Mattermost/button_user-1_style--none sidebar-header-dr_eabf2e'))
 
 WebUI.click(findTestObject('Object Repository/Change appearance/Page_Town Square - abc Mattermost/span_Account Settings'))
 
 WebUI.click(findTestObject('Object Repository/Change appearance/Page_Town Square - abc Mattermost/button_Display'))
 
-WebUI.click(findTestObject('Object Repository/AccountSetting Display/Page_Town Square - abc Mattermost/span_Edit'))
+WebUI.click(findTestObject('Object Repository/change message_2/Page_Town Square - eligendi Mattermost/div_Message DisplayEditStandard'))
 
 if (messageDisplay == 'Standard') {
-    WebUI.click(findTestObject('Object Repository/AccountSetting Display/Page_Town Square - abc Mattermost/label_Standard Easy to scan and read'))
+    WebUI.click(findTestObject('Object Repository/change message_2/Page_Town Square - eligendi Mattermost/input__message_displayFormat'))
 } else {
-    WebUI.click(findTestObject('Object Repository/AccountSetting Display/Page_Town Square - abc Mattermost/label_Compact Fit as many messages on the s_8d6635'))
+    WebUI.click(findTestObject('Object Repository/change message_2/Page_Town Square - eligendi Mattermost/input__message_displayFormat_1'))
+
+    WebUI.click(findTestObject('Object Repository/change message_2/Page_Town Square - eligendi Mattermost/button_Save'))
 }
 
-WebUI.click(findTestObject('Object Repository/AccountSetting Display/Page_Town Square - abc Mattermost/span_Save'))
-
 WebUI.click(findTestObject('Object Repository/AccountSetting Display/Page_Town Square - abc Mattermost/span_'))
+
+WebUI.closeBrowser()
 

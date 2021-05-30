@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>afc95ad7-a99c-48dc-a9b1-99caddf6996a</testCaseGuid>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'teamTui'</defaultValue>
       <description></description>
       <id>fdaf3280-24fc-4aec-a2b1-58af789cae83</id>
       <masked>false</masked>

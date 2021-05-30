@@ -19,21 +19,23 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login successfully'), [('username') : username, ('password') : password], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Change appearance/Page_Town Square - abc Mattermost/path'))
+WebUI.click(findTestObject('Object Repository/change dark theme_2/Page_Town Square - Buffalo Mattermost/button_user-1_style--none sidebar-header-dr_eabf2e'))
 
 WebUI.click(findTestObject('Object Repository/Change appearance/Page_Town Square - abc Mattermost/span_Account Settings'))
 
 WebUI.click(findTestObject('Object Repository/Change appearance/Page_Town Square - abc Mattermost/button_Display'))
 
-WebUI.click(findTestObject('Object Repository/Change appearance/Page_Town Square - abc Mattermost/div_Default Appearance of Image PreviewsEdit'))
+WebUI.click(findTestObject('Object Repository/default appearance_2/Page_Town Square - eligendi Mattermost/div_Default Appearance of Image PreviewsEdi_15ab01'))
 
 if (appearanceOfImagePreview == 'Expanded') {
-    WebUI.click(findTestObject('Object Repository/AccountSetting Display/Page_Town Square - abc Mattermost/label_Expanded'))
+    WebUI.click(findTestObject('Object Repository/default appearance_2/Page_Town Square - eligendi Mattermost/input_Expanded_collapseFormat'))
 } else {
-    WebUI.click(findTestObject('Object Repository/AccountSetting Display/Page_Town Square - abc Mattermost/label_Collapsed'))
+    WebUI.click(findTestObject('Object Repository/default appearance_2/Page_Town Square - eligendi Mattermost/input_Default Appearance of Image Previews__a8788c'))
 }
 
-WebUI.click(findTestObject('Object Repository/Change appearance/Page_Town Square - abc Mattermost/span_Save'))
+WebUI.click(findTestObject('Object Repository/default appearance_2/Page_Town Square - eligendi Mattermost/button_Save'))
 
-WebUI.click(findTestObject('Object Repository/Change appearance/Page_Town Square - abc Mattermost/span_'))
+WebUI.click(findTestObject('Object Repository/default appearance_2/Page_Town Square - eligendi Mattermost/span_'))
+
+WebUI.closeBrowser()
 

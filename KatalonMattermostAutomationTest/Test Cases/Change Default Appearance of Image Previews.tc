@@ -13,14 +13,14 @@
       <name>appearanceOfImagePreview</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'linhknife796'</defaultValue>
       <description></description>
       <id>22b41db1-d19f-4b0e-bf8a-21fb2d35a44c</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Linhknife796@'</defaultValue>
       <description></description>
       <id>64eaf184-6611-4c88-906d-214790d0a6e2</id>
       <masked>false</masked>

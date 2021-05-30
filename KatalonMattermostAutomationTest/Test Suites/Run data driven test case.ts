@@ -281,4 +281,22 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/UsingLoop/Change team name</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>4c491570-55be-4367-b4a3-eaddee720ea3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/UsingIfStatement/ChangeDarkTheme</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ce29715a-97d9-46eb-bedf-68cdcd71a8e5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>91809ca1-1cec-47bc-a88a-bc0ede68a56b</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

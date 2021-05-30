@@ -8,16 +8,20 @@
    <dataFileGUID>6c78b699-2dbd-4aff-a9a5-a7714a923a58</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>linhknife796 linhknife796</data>
+   <data>linhknife796 Linhknife796%40</data>
+   <data>conganhhcmus0 Conganhhcmus0%40</data>
+   <data>conganhhcmus1 Conganhhcmus1%40</data>
+   <data>conganhhcmus2 Conganhhcmus2%40</data>
+   <data>conganhhcmus3 Conganhhcmus3%40</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>username</name>
-      <size>1</size>
+      <size>5</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>password</name>
-      <size>1</size>
+      <size>5</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

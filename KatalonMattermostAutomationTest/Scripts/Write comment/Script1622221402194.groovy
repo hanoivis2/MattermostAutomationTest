@@ -17,11 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login successfully'), [('username') : 'linhknife796', ('password') : 'linhknife796'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login successfully'), [('username') : 'linhknife796', ('password') : 'Linhknife796@'], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Write comment/Page_Town Square - abc Mattermost/textarea_Write to Town Square_post_textbox'), 
-    'Day la noi dung vua duoc nhap vao')
+for (def index : (0..2)) {
+    WebUI.setText(findTestObject('Write comment/Page_Town Square - abc Mattermost/textarea_Write to Town Square_post_textbox'), 
+        'Day la noi dung vua duoc nhap vao ' + index)
 
-WebUI.sendKeys(findTestObject('Write comment/Page_Town Square - abc Mattermost/textarea_Write to Town Square_post_textbox'), 
-    Keys.chord(Keys.ENTER))
+    WebUI.sendKeys(findTestObject('Write comment/Page_Town Square - abc Mattermost/textarea_Write to Town Square_post_textbox'), 
+        Keys.chord(Keys.ENTER))
+}
 

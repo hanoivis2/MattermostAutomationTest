@@ -19,30 +19,32 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('localhost:8065')
+WebUI.navigateToUrl('http://localhost:8065/login')
 
-WebUI.setText(findTestObject('Object Repository/EditEmail/Page_Mattermost/input_All team communication in one place, _dcc84b'), 
-    'user-1')
+WebUI.setText(findTestObject('Object Repository/edit email_2/Page_Mattermost/input_All team communication in one place, _dcc84b'), 
+    'linhknife796')
 
-WebUI.setText(findTestObject('Object Repository/EditEmail/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
-    'SampleUs@r-1')
+WebUI.setEncryptedText(findTestObject('Object Repository/edit email_2/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
+    'AUFDKhCnJHCoxVYLtHPNpg==')
 
-WebUI.click(findTestObject('Object Repository/EditEmail/Page_Mattermost/span_Sign in'))
+WebUI.sendKeys(findTestObject('Object Repository/edit email_2/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
+    Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/EditEmail/Page_Town Square - abc Mattermost/span'))
+WebUI.click(findTestObject('Object Repository/edit email_2/Page_Town Square - eligendi Mattermost/button_linhknife796_style--none sidebar-hea_0abf9a'))
 
-WebUI.click(findTestObject('Object Repository/EditEmail/Page_Town Square - abc Mattermost/span_Account Settings'))
+WebUI.click(findTestObject('Object Repository/edit email_2/Page_Town Square - eligendi Mattermost/button_Account Settings'))
 
-WebUI.click(findTestObject('Object Repository/EditEmail/Page_Town Square - abc Mattermost/span_Edit'))
+WebUI.click(findTestObject('Object Repository/edit email_2/Page_Town Square - eligendi Mattermost/div_EmailEditlinhknife796gmail.com'))
 
-WebUI.setText(findTestObject('Object Repository/EditEmail/Page_Town Square - abc Mattermost/input_New Email_primaryEmail'), 
-    'vangol2013@gmail.com')
+WebUI.setText(findTestObject('Object Repository/edit email_2/Page_Town Square - eligendi Mattermost/input_New Email_primaryEmail'), 
+    email)
 
-WebUI.setText(findTestObject('Object Repository/EditEmail/Page_Town Square - abc Mattermost/input_Confirm Email_confirmEmail'), 
-    'vangol2013@gmail.com')
+WebUI.setText(findTestObject('Object Repository/edit email_2/Page_Town Square - eligendi Mattermost/input_Confirm Email_confirmEmail'), 
+    email)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/EditEmail/Page_Town Square - abc Mattermost/input_Current Password_currentPassword'), 
-    'HGnKy8xZufLE9vEr3x7Zxw==')
+WebUI.setEncryptedText(findTestObject('Object Repository/edit email_2/Page_Town Square - eligendi Mattermost/input_Current Password_currentPassword'), 
+    'AUFDKhCnJHCoxVYLtHPNpg==')
 
-WebUI.click(findTestObject('Object Repository/EditEmail/Page_Town Square - abc Mattermost/span_Save'))
+WebUI.sendKeys(findTestObject('Object Repository/edit email_2/Page_Town Square - eligendi Mattermost/input_Current Password_currentPassword'), 
+    Keys.chord(Keys.ENTER))
 
